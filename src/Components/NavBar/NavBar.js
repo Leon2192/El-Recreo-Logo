@@ -36,6 +36,7 @@ const hero = () => {
         <Route path="home" element={<Home />}></Route>
         <Route path="nosotros" element={<Nosotros />}></Route>
         <Route path="galeria" element={<Galeria />}></Route>
+        <Route path="home/contacto" element={<Contacto />}></Route>
         <Route path="galeria/contacto" element={<Contacto />}></Route>
       </Routes>
     </>

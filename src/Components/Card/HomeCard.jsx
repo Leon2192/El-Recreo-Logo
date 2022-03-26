@@ -10,7 +10,7 @@ const HomeCard = () => {
           <section className="container">
             <div className="row">
               <div className="contenedorExterior">
-                <div className="contenedorInterior" id="boton">
+                <div className="contenedorInterior">
                   <Link to={"contacto"}>
                     <button className="buttonOne">Consultar</button>
                   </Link>
