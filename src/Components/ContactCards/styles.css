@@ -30,7 +30,6 @@
     flex-wrap: wrap;
     background-size: 5rem;
     box-shadow: 2px 1px 2px rgb(85, 84, 84);
-    
   }
 
   .list-icons {
@@ -68,6 +67,15 @@
   }
   .RedesContainer h1 {
     font-size: 30px;
+  }
+  .redesSociales ul li a i{
+    font-size: 3rem;
+  }
+  .redesSociales ul li a i:hover{
+    transition: 1s;
+    transform: scale(1.25);
+    color: lightblue;
+    font-size: 4rem;
   }
 }
 
