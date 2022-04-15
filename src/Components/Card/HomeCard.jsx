@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import Carousel from "react-bootstrap/Carousel";
+import { Link } from "react-router-dom";
 
 import imageTwo from "../../assets/galeria/imageTwo.jpg";
 import adultsOne from "../../assets/galeria/adultsOne.jpg";
@@ -62,6 +63,9 @@ const HomeCard = () => {
               duelos. Ah, nuestro juego estrella el BURBOL. Y cualquier idea que
               quieras proponer.
             </p>
+            <Link to={"contacto"}>
+              <button className="buttonOne">Consultar</button>
+            </Link>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item interval={500}>
@@ -85,6 +89,9 @@ const HomeCard = () => {
               Estrenamos casa, cuando decimos cualquier motivo, es cualquier
               motivo.
             </p>
+            <Link to={"contacto"}>
+              <button className="buttonOne">Consultar</button>
+            </Link>
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
