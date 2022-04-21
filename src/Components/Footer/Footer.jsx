@@ -24,7 +24,7 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="https://api.whatsapp.com/send?phone=+1123941289">
+                    <a href="https://api.whatsapp.com/send?phone=+1134263322">
                       <i class="bi bi-whatsapp"></i>
                     </a>
                   </li>

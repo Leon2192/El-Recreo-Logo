@@ -76,7 +76,7 @@
     background-color: #f4e4fa;
     color: green;
     font-size: 12px;
-    padding: 3px;
+   padding: 0;
     border-radius: 8px;
     font-weight: 500;
   }
@@ -85,7 +85,7 @@
     background-color: green;
     color: white;
     font-size: 12px;
-    padding: 8px;
+    padding: 0;
     border-radius: 15px;
     font-weight: 500;
   }
@@ -95,7 +95,7 @@
   }
   .formulario {
     height: 420px;
-    margin: auto;
+    margin: 0 auto;
   }
   .form .buttonForm{
     text-align: center;
